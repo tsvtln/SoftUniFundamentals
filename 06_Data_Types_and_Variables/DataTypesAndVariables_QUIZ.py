@@ -301,7 +301,7 @@ if a3 == 'b':
     score += 1
 if a4 == 'a':
     score += 1
-if a5 == 'a':
+if a5 == 'b':
     score += 1
 if a6 == 'a':
     score += 1
@@ -323,7 +323,7 @@ if final_answers == 'y':
     print(Fore.BLUE + "2 -  c) int")
     print(Fore.BLUE + "3 -  b) 2.5")
     print(Fore.BLUE + "4 -  a) str")
-    print(Fore.BLUE + "5 -  a) True")
+    print(Fore.BLUE + "5 -  b) False")
     print(Fore.BLUE + "6 -  a) list")
     print(Fore.BLUE + "7 -  a) the number of characters in the string")
     print(Fore.BLUE + "8 -  b) 3.14")
