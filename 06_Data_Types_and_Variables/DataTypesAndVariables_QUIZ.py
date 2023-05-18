@@ -293,9 +293,9 @@ while not a10g:
     else:
         print(Fore.RED + "Incorrect input, please provide the answers by typing 'a', 'b', 'c' or 'd'")
 
-if a1 == 'b':
+if a1 == 'a':
     score += 1
-if a2 == 'a':
+if a2 == 'c':
     score += 1
 if a3 == 'b':
     score += 1
@@ -303,15 +303,15 @@ if a4 == 'a':
     score += 1
 if a5 == 'a':
     score += 1
-if a6 == 'c':
+if a6 == 'a':
     score += 1
-if a7 == 'b':
+if a7 == 'a':
     score += 1
-if a8 == 'c':
+if a8 == 'b':
     score += 1
-if a9 == 'd':
+if a9 == 'b':
     score += 1
-if a10 == 'b':
+if a10 == 'c':
     score += 1
 print()
 
