@@ -58,7 +58,7 @@ class AnsiFore(AnsiCodes):
     WHITE = 37
     RESET = 39
 
-    # These are fairly well supported, but not part of the standard.
+    # These are fairly well-supported, but not part of the standard.
     LIGHTBLACK_EX = 90
     LIGHTRED_EX = 91
     LIGHTGREEN_EX = 92
@@ -80,7 +80,7 @@ class AnsiBack(AnsiCodes):
     WHITE = 47
     RESET = 49
 
-    # These are fairly well supported, but not part of the standard.
+    # These are fairly well-supported, but not part of the standard.
     LIGHTBLACK_EX = 100
     LIGHTRED_EX = 101
     LIGHTGREEN_EX = 102
