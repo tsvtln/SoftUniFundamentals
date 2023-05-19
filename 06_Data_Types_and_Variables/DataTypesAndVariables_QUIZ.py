@@ -188,12 +188,6 @@ print()
 
 # Question 5
 print(Fore.BLUE + '5. What is the value of the variable is_valid in the following code snippet?')
-print(Fore.LIGHTYELLOW_EX + 'if isinstance(123, str):')
-print(Fore.LIGHTYELLOW_EX + '    is_valid = True')
-print(Fore.LIGHTYELLOW_EX + 'else:')
-print(Fore.LIGHTYELLOW_EX + '    is_valid = False')
-print(Fore.LIGHTYELLOW_EX + 'print(is_valid)')
-print()
 print(Fore.BLUE + 'a) True')
 print(Fore.BLUE + 'b) False')
 print(Fore.BLUE + 'c) 1')
