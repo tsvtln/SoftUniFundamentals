@@ -1,6 +1,5 @@
 num_of_lines = int(input())
 BALANCED, RECEIVED_BRACKET, FIRST_CLOSER, OPEN, CLOSE = False, False, False, False, False
-
 for _ in range(num_of_lines):
     recieve = input()
     if recieve == '(' or recieve == ')' and not RECEIVED_BRACKET:
@@ -20,7 +19,6 @@ for _ in range(num_of_lines):
         CLOSE = False
     if recieve == '((':
         FIRST_CLOSER = True
-
 if FIRST_CLOSER or not BALANCED:
     print('UNBALANCED')
 else:
