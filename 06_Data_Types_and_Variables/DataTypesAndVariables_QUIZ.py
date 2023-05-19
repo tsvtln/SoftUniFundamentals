@@ -299,26 +299,18 @@ while not a10g:
     else:
         print(Fore.RED + "Incorrect input, please provide the answers by typing 'a', 'b', 'c' or 'd'")
 
-if a1 == 'a':
-    score += 1
-if a2 == 'c':
-    score += 1
-if a3 == 'b':
-    score += 1
-if a4 == 'a':
-    score += 1
-if a5 == 'b':
-    score += 1
-if a6 == 'a':
-    score += 1
-if a7 == 'a':
-    score += 1
-if a8 == 'b':
-    score += 1
-if a9 == 'b':
-    score += 1
-if a10 == 'c':
-    score += 1
+
+answers = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+for i in range(len(answers)):
+    if answers[i] == 'a' and i in [0, 3, 5, 6]:
+        score += 1
+        continue
+    elif answers[i] == 'b' and i in [2, 4, 7, 8]:
+        score += 1
+        continue
+    elif answers[i] == 'c' and i in [1, 9]:
+        score += 1
+        continue
 print()
 
 print(Fore.LIGHTGREEN_EX + f"Your final score is {score}/10 correct answers.")
@@ -337,3 +329,4 @@ if final_answers == 'y':
     print(Fore.BLUE + "10 - c) using the = operator")
 else:
     print(Fore.BLUE + 'Thank you for taking this QUIZ. Bye!')
+
