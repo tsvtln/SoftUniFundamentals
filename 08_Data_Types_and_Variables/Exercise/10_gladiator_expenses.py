@@ -1,10 +1,5 @@
-lost_fights = int(input())
-helmet_price = float(input())
-sword_price = float(input())
-shield_price = float(input())
-armor_price = float(input())
-expenses = 0
-shield_breaks = 0
+lost_fights, helmet_price, sword_price, shield_price, armor_price = int(input()), float(input()), float(input()), float(input()), float(input()) 
+expenses, shield_breaks = 0, 0
 for loses in range(1, lost_fights + 1):
     if loses % 2 == 0:
         expenses += helmet_price
