@@ -1,6 +1,5 @@
 number_of_lists = int(input())
-positives = []
-negatives = []
+positives, negatives = [], []
 for lists in range(number_of_lists):
     number = int(input())
     if number >= 0:
