@@ -110,6 +110,13 @@ score = 0
 print(Fore.RED + "Provide the answers by typing 'a', 'b', 'c' or 'd'")
 print()
 
+# Questions
+questions = [Fore.BLUE + f"1. What is the correct way to create an empty list?\n"
+                         f"   a) `list = []`\n   b) `list = {}`\n   c) `list = ()`\n"
+                         f"   d) `list = ''`\n\n\n", f"2. Which method is used to add an element to the "
+                                                     f"end of a list?\n   a) `append()`\n   b) `extend()`\n"
+                                                     f"   c) `insert()`\n   d) `remove()`"]
+
 # Question 1
 print(Fore.BLUE + '1. What is the data type of the variable age in the following code snippet?')
 print(Fore.LIGHTYELLOW_EX + ' age = 25')
