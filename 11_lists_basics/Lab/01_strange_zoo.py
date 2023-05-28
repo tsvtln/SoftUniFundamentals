@@ -1,7 +1,2 @@
-part_one = input()
-part_two = input()
-part_three = input()
-
-body = [part_three, part_two, part_one]
-
-print(body) 
+part_one, part_two, part_three = input(), input(), input()
+print(part_three, part_two, part_one)
