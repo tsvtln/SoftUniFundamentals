@@ -1,3 +1,5 @@
+print([int(number) for number in input().split() if int(number) % 2 == 0])
+
 # def is_even(number):
 #     if int(number) % 2 == 0:
 #         return True
@@ -17,6 +19,3 @@
 # print(str(deploy_even(receive_numbers)).replace("'", ''))
 #
 #
-
-
-print([int(number) for number in input().split() if int(number) % 2 == 0])
