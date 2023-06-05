@@ -198,7 +198,7 @@ print("\n\n\n")
 print(Fore.BLUE + '6. What does the map() function do in Python?')
 print(Fore.BLUE + 'a) Applies a function to each element of an iterable ')
 print(Fore.BLUE + 'b) Filters out elements from an iterable')
-print(Fore.BLUE + 'c) Computes the sum of all elements in an iterable')'
+print(Fore.BLUE + 'c) Computes the sum of all elements in an iterable')
 print(Fore.BLUE + 'd) Sorts the elements of an iterable\n')
 while not a6g:
     a6 = input('Your answer: ').lower()
