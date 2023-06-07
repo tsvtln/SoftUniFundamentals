@@ -30,4 +30,3 @@ except ValueError as e:
 # inp_product = input()
 # inp_quantity = int(input())
 # print(f'{orders(inp_product, inp_quantity):.2f}')
-#
