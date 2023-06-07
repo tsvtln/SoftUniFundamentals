@@ -45,7 +45,14 @@ while CONTINUE:
                         if initial_list[length_of_list] > mne:
                             mne = initial_list[length_of_list]
                             ipme = length_of_list
+
+                        # if index_position < find_index:
+                        #     index_position = find_index
                 print(ipme)
+            #     odd_arr = array_list[even_mask]
+            #     # max_odd_index = odd_arr.argmax()
+            #     print(np.where(even_mask)[0][-1])
+            #     # print(max_odd_index_output)
             else:
                 print('No matches')
 
