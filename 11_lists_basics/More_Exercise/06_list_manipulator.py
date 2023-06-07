@@ -172,4 +172,5 @@ while CONTINUE:
                 print(last_odd)
                 last_odd.clear()
 
+# end
 print(initial_list)
