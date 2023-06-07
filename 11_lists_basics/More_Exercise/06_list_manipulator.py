@@ -1,5 +1,5 @@
 import numpy as np
-from array import array
+# from array import array
 from sys import maxsize as maxnum
 
 initial_list = [int(x) for x in input().split(' ')]
