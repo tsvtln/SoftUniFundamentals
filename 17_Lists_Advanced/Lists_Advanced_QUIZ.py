@@ -353,7 +353,7 @@ if final_answers == 'y':
     print(Fore.BLUE + "7. c) filter()")
     print(Fore.BLUE + "8. a) lambda x: x % 3 == 0")
     print(Fore.BLUE + "9. a) [1, 4, 9, 16, 25]")
-    print(Fore.BLUE + "10. a) [1, 2, 3, 4, 5]")
+    print(Fore.BLUE + "10. a) No output")
 else:
     print(Fore.BLUE + 'Thank you for taking this QUIZ. Bye!')
 
