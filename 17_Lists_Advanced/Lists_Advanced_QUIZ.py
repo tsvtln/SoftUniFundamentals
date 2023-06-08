@@ -140,6 +140,7 @@ while HAS_TIME and not a1g:
         HAS_TIME = False
     print("\n\n\n")
 
+
 while HAS_TIME and not a2g:
     # Question 2
     print(Fore.BLUE + '2. Which of the following is a correct syntax for list comprehension in Python?')
