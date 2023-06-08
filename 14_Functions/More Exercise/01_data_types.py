@@ -18,3 +18,6 @@ if value_entry.isnumeric():
 
 data_types(command_entry, value_entry)
 # print(type(data_types(command_entry, value_entry)))
+
+
+
