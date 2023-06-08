@@ -103,7 +103,7 @@ Back = AnsiBack()
 Style = AnsiStyle()
 Cursor = AnsiCursor()
 
-print(Fore.WHITE + 'Functions\nQUIZ by Mario Zahariev zahariev-webbersof@github')
+print(Fore.WHITE + 'Lists Advanced\nQUIZ by Mario Zahariev zahariev-webbersof@github')
 a1, a2, a3, a4, a5, a6, a7, a8, a9, a10 = '', '', '', '', '', '', '', '', '', ''
 a1g, a2g, a3g, a4g, a5g, a6g, a7g, a8g, a9g, a10g = False, False, False, False, False, False, False, False, False, False
 score = 0
@@ -277,16 +277,16 @@ while not a10g:
 
 answers = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
 for i in range(len(answers)):
-    if answers[i] == 'a' and i in [5, 6, 7, 9]:
+    if answers[i] == 'a' and i in [1, 4, 7, 8, 9]:
         score += 1
         continue
-    elif answers[i] == 'b' and i in [0, 2]:
+    elif answers[i] == 'b' and i in [0, 5]:
         score += 1
         continue
-    elif answers[i] == 'c' and i in [8]:
+    elif answers[i] == 'c' and i in [3, 6]:
         score += 1
         continue
-    elif answers[i] == 'd' and i in [1, 3, 4]:
+    elif answers[i] == 'd' and i in [2]:
         score += 1
         continue
 print()
@@ -295,16 +295,16 @@ print(Fore.LIGHTGREEN_EX + f"Your final score is {score}/10 correct answers.")
 print("To see the correct answers, type 'y'. To exit type any key.")
 final_answers = input().lower()
 if final_answers == 'y':
-    print(Fore.BLUE + "1. b) def")
-    print(Fore.BLUE + "2. d) To define an anonymous function")
-    print(Fore.BLUE + "3. b) The number of items in the list ")
-    print(Fore.BLUE + "4. d) my_function() ")
-    print(Fore.BLUE + "5. d) Range object ")
-    print(Fore.BLUE + "6. a) Applies a function to each element of an iterable ")
-    print(Fore.BLUE + "7. a) Yes")
-    print(Fore.BLUE + "8. a) Yes")
-    print(Fore.BLUE + "9. c) Function scope")
-    print(Fore.BLUE + "10. a) A function that calls itself")
+    print(Fore.BLUE + "1. b) To create anonymous functions")
+    print(Fore.BLUE + "2. a) [x for x in range(10)]")
+    print(Fore.BLUE + "3. d) Using simultaneous assignment or a temporary variable")
+    print(Fore.BLUE + "4. c) set()")
+    print(Fore.BLUE + "5. a) Sorts the elements of a list in ascending order")
+    print(Fore.BLUE + "6. b) To transform elements of a list based on a function")
+    print(Fore.BLUE + "7. c) filter()")
+    print(Fore.BLUE + "8. a) lambda x: x % 3 == 0")
+    print(Fore.BLUE + "9. a) [1, 4, 9, 16, 25]")
+    print(Fore.BLUE + "10. a) [1, 2, 3, 4, 5]")
 else:
     print(Fore.BLUE + 'Thank you for taking this QUIZ. Bye!')
 
