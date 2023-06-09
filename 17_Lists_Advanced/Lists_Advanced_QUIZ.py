@@ -23,9 +23,6 @@ def clear_line(mode=2):
 
 class AnsiCodes(object):
     def __init__(self):
-        # the subclasses declare class attributes which are numbers.
-        # Upon instantiation we define instance attributes, which are the same
-        # as the class attributes but wrapped with the ANSI escape sequence
         for name in dir(self):
             if not name.startswith('_'):
                 value = getattr(self, name)
