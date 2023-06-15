@@ -1,4 +1,7 @@
 """
+v.7
+- Questions are now in json file and called here.
+
 v.6
 - Cropped some unnecessary code.
 - Added time formatting.
@@ -10,7 +13,10 @@ v.6
 """
 
 import time
+import json
 
+with open('questions.json', 'r') as questions:
+    questions = json.load(questions)
 
 # Text Coloration
 CSI = '\033['
@@ -49,109 +55,6 @@ Color, Style = AnsiToColor(), AnsiStyle()
 start_time = time.time()
 time_limit = 15 * 60  # 15 minutes
 score, elapsed_time, time_left = 0, 0, 0
-
-questions = {
-    1: {
-        'question': "Which keyword is used to define a function in Python?",
-        'options': {
-            "a": "method",
-            "b": "def",
-            "c": "function",
-            "d": "define"
-        },
-        'answer': 'b'
-    },
-    2: {
-        'question': "What is the purpose of the lambda keyword in Python?",
-        'options': {
-            "a": "To define a class",
-            "b": "To create a variable",
-            "c": "To declare a function",
-            "d": "To define an anonymous function"
-        },
-        'answer': 'd'
-    },
-    3: {
-        'question': "What does the len() function return when applied to a list in Python?",
-        'options': {
-            "a": "The sum of all elements in the list",
-            "b": "The number of items in the list",
-            "c": "The average of all elements in the list",
-            "d": "The maximum value in the list"
-        },
-        'answer': 'b'
-    },
-    4: {
-        'question': "How do you call a function named my_function in Python?",
-        'options': {
-            "a": "call my_function()",
-            "b": "my_function",
-            "c": "invoke my_function()",
-            "d": "my_function()"
-        },
-        'answer': 'd'
-    },
-    5: {
-        'question': "What is the return type of the range() function in Python?",
-        'options': {
-            "a": "Integer",
-            "b": "List",
-            "c": "Tuple",
-            "d": "Range object"
-        },
-        'answer': 'd'
-    },
-    6: {
-        'question': "What does the map() function do in Python?",
-        'options': {
-            "a": "Applies a function to each element of an iterable",
-            "b": "Filters out elements from an iterable",
-            "c": "Computes the sum of all elements in an iterable",
-            "d": "Sorts the elements of an iterable"
-        },
-        'answer': 'a'
-    },
-    7: {
-        'question': "Can a function in Python have multiple return statements?",
-        'options': {
-            "a": "Yes",
-            "b": "No",
-            "c": "Only if the function has a single parameter",
-            "d": "Only if the function is defined using lambda"
-        },
-        'answer': 'a'
-    },
-    8: {
-        'question': "Can a function in Python have optional parameters?",
-        'options': {
-            "a": "Yes",
-            "b": "No",
-            "c": "Only if the function is defined using lambda",
-            "d": "Only if the function has a single line of code"
-        },
-        'answer': 'a'
-    },
-    9: {
-        'question': "What is the scope of a variable defined inside a function in Python?",
-        'options': {
-            "a": "Global scope",
-            "b": "Class scope",
-            "c": "Function scope",
-            "d": "Module scope"
-        },
-        'answer': 'c'
-    },
-    10: {
-        'question': "What is a recursive function in Python?",
-        'options': {
-            "a": "A function that calls itself",
-            "b": "A function defined inside another function",
-            "c": "A function that accepts a variable number of arguments",
-            "d": "A function that returns a boolean value"
-        },
-        'answer': 'a'
-    }
-}
 
 print(Color.WHITE, Style.BRIGHT + "Functions\nQUIZ by Mario Zahariev @\n"
                                   "GITHUB: https://github.com/zahariev-webbersof')")
