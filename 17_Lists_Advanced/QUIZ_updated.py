@@ -15,9 +15,6 @@ v.6
 import time
 import json
 
-with open('questions.json', 'r') as questions:
-    questions = json.load(questions)
-
 # Text Coloration
 CSI = '\033['
 
@@ -51,6 +48,7 @@ def format_time(seconds):
 
 
 # Variables
+questions = json.load(open('questions.json', 'r'))
 Color, Style = AnsiToColor(), AnsiStyle()
 start_time = time.time()
 time_limit = 15 * 60  # 15 minutes
