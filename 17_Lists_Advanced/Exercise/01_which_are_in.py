@@ -6,10 +6,7 @@ for word in range(len(command)):
     for find in range(len(find_words)):
         temp_find = [char for char in find_words[find]]
         for letter in temp_command:
-            if letter in temp_find:
-                temp_word.append(letter)
-            else:
-                temp_word.clear()
+            temp_word.append(letter) if letter in temp_find else temp_word.clear()
             if temp_word == temp_find:
                 contained_words.append(''.join(temp_find))
                 temp_word.clear()
