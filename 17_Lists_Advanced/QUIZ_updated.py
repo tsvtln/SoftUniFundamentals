@@ -1,10 +1,14 @@
 """
-Contributors:
-Стефи @
-Discord:    Стефи#3040
-GITHUB:     https://github.com/stefipop
-
+v.6
+- Cropped some unnecessary code.
+- Added time formatting.
+- Added contributors.
+- Added time left between questions.
+- Added time spent taking the QUIZ.
+- Minor code formatting.
+- Recolored some things.
 """
+
 import time
 
 
