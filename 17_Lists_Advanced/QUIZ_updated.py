@@ -192,7 +192,6 @@ else:
     if final_answers == 'y':
         for q_num, q_data in questions.items():
             print(Color.BLUE + f"{q_num}. {q_data['question']}")
-            print(Color.BLUE + f"Correct Answer: {q_data['answer']}\n")
-
+            print(Color.BLUE + f"Correct Answer: {q_data['answer']}) '{q_data['options'][q_data['answer']]}'\n")
     else:
         print(Color.BLUE + 'Thank you for taking this QUIZ. Bye!')
