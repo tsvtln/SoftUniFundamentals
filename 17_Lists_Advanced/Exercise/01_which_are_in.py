@@ -13,6 +13,6 @@ for word in range(len(command)):
                 break
 
 for final in range(len(find_words)):
-    if find_words[final] in contained_words:
-        final_list.append(find_words[final])
+    final_list.append(find_words[final]) if find_words[final] in contained_words else ''
+
 print(final_list)
