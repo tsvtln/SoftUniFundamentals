@@ -11,7 +11,7 @@ def place_people(queue: int, current_state: list):
 
 entry_queue = int(input())
 entry_state = [int(x) for x in input().split()]
-entry_state, entry_queue, ESR, NESR = place_people(entry_queue, entry_state)
+entry_state, entry_queue, ESR, NESR = place_people(entry_queue, entry_state)  # ESR=enough space resolution;NESR=not ESR
 
 print(f"The lift has empty spots!\n{entry_state}") if ESR else None
 print(f"There isn't enough space! {entry_queue} people in a queue!\n{entry_state}") if NESR else None
