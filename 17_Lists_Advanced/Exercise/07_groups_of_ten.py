@@ -5,7 +5,6 @@ while len(sequence) > 0:
     for number in sequence:
         if number <= group_num:
             group_list.append(number)
-            sequence
     print(f"Group of {group_num}'s: {group_list}")
     for number in group_list:
         if number in sequence:
