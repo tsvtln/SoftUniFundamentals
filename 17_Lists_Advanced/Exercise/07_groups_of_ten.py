@@ -10,5 +10,3 @@ while len(sequence) > 0:
         if number in sequence:
             sequence.remove(number)
     group_num += 10
-
-
