@@ -40,6 +40,7 @@ while command != '3:1':
             string += element[z]
         resulting_list_div.append(string)
         sequence.pop(index)
+        #
         # sequence.insert(index, ' '.join(resulting_list_div))
         for j in range(len(resulting_list_div)):
             sequence.insert(index + j, resulting_list_div[j])
