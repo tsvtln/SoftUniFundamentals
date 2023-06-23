@@ -55,7 +55,8 @@ time_limit = 15 * 60  # 15 minutes
 score, elapsed_time, time_left = 0, 0, 0
 
 print(Color.WHITE, Style.BRIGHT + "Objects and Classes\nQUIZ by Mario Zahariev @\n"
-                                  "GITHUB: https://github.com/zahariev-webbersof')")
+                                  "GITHUB: https://github.com/zahariev-webbersof")
+print(Color.MAGENTA + 'Mantained by tsvtln@\nDiscord:    PotKor#1842\nGITHUB:     https://github.com/tsvtln')
 print(Color.MAGENTA + 'CONTRIBUTORS\nСтефи @\nDiscord:    Стефи#3040\nGITHUB:     https://github.com/stefipop')
 print(Color.RED + "Provide the answers by typing 'a', 'b', 'c' or 'd'")
 print()
