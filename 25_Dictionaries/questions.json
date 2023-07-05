@@ -3,7 +3,7 @@
         "question": "How do you create an empty dictionary in Python?",
         "options": {
             "a": "empty_dict = {}",
-            "b": "empty_dict = dict()",
+            "b": "empty_dict = ()",
             "c": "empty_dict = []",
             "d": "empty_dict = set()"
         },
