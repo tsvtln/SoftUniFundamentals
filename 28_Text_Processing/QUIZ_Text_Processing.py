@@ -1,6 +1,6 @@
 """
 v.7.1
-- changed text: "To exit type any key." to "To exit press any key."
+- Changed text: "To exit type any key." to "To exit press any key."
 
 v.7
 - Questions are now in json file and called here.
