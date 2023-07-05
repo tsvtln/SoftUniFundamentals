@@ -1,0 +1,102 @@
+{
+    "1": {
+        "question": "What is the correct way to create a multiline string in Python?",
+        "options": {
+            "a": "Using single quotes: 'Hello\nWorld'",
+            "b": "Using triple quotes: \"\"\"Hello\nWorld\"\"\"",
+            "c": "Using double quotes: \"Hello\nWorld\"",
+            "d": "Using backslashes: 'Hello\nWorld'"
+        },
+        "answer": "b"
+    },
+    "2": {
+        "question": "Which of the following methods returns the length of a string in Python?",
+        "options": {
+            "a": "size()",
+            "b": "length()",
+            "c": "count()",
+            "d": "len()"
+        },
+        "answer": "d"
+    },
+    "3": {
+        "question": "What will be the output of the following code?\n\nstring = \"Hello World\"\nprint(string[3:8])",
+        "options": {
+            "a": "\"Hello\"",
+            "b": "\"lo Wo\"",
+            "c": "\"o Wo\"",
+            "d": "\" Wo\""
+        },
+        "answer": "b"
+    },
+    "4": {
+        "question": "Which method is used to convert a string to lowercase in Python?",
+        "options": {
+            "a": "tolower()",
+            "b": "lower()",
+            "c": "lowercase()",
+            "d": "casefold()"
+        },
+        "answer": "b"
+    },
+    "5": {
+        "question": "What is the result of the following code?\n\nstring = \"Python\"\nprint(string[-2])",
+        "options": {
+            "a": "\"h\"",
+            "b": "\"o\"",
+            "c": "\"n\"",
+            "d": "\"t\""
+        },
+        "answer": "b"
+    },
+    "6": {
+        "question": "Which method is used to split a string into a list of substrings based on a delimiter?",
+        "options": {
+            "a": "split()",
+            "b": "divide()",
+            "c": "slice()",
+            "d": "separate()"
+        },
+        "answer": "a"
+    },
+    "7": {
+        "question": "What will be the output of the following code?\n\nstring = \"Hello World\"\nprint(string.replace(\"o\", \"x\"))",
+        "options": {
+            "a": "\"Hellx Wxrld\"",
+            "b": "\"Hexllo Wxrld\"",
+            "c": "\"Hellx World\"",
+            "d": "\"Hello Wxrld\""
+        },
+        "answer": "a"
+    },
+    "8": {
+        "question": "What does the strip() method do in Python?",
+        "options": {
+            "a": "Removes leading and trailing spaces from a string",
+            "b": "Converts the string to uppercase",
+            "c": "Removes all occurrences of a specified character",
+            "d": "Splits the string into a list of substrings"
+        },
+        "answer": "a"
+    },
+    "9": {
+        "question": "What is the output of the following code?\n\nstring = \"Hello World\"\nprint(string.count(\"l\"))",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+        },
+        "answer": "b"
+    },
+    "10": {
+        "question": "Which method is used to check if a string starts with a specified substring?",
+        "options": {
+            "a": "startswith()",
+            "b": "beginswith()",
+            "c": "start()",
+            "d": "prefix()"
+        },
+        "answer": "a"
+    }
+}
