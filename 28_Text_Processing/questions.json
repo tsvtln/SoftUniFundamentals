@@ -2,10 +2,10 @@
     "1": {
         "question": "What is the correct way to create a multiline string in Python?",
         "options": {
-            "a": "Using single quotes: 'Hello World'",
-            "b": "Using triple quotes: \"\"\"Hello World\"\"\"",
-            "c": "Using double quotes: \"Hello World\"",
-            "d": "Using backslashes: 'Hello World'"
+            "a": "Using single quotes: 'Hello\\nWorld'",
+            "b": "Using triple quotes: \"\"\"Hello\\nWorld\"\"\"",
+            "c": "Using double quotes: \"Hello\\nWorld\"",
+            "d": "Using backslashes: 'Hello\\nWorld'"
         },
         "answer": "b"
     },
