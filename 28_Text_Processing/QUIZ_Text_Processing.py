@@ -1,4 +1,7 @@
 """
+v.7.1
+- changed text: "To exit type any key." to "To exit press any key."
+
 v.7
 - Questions are now in json file and called here.
 
@@ -89,7 +92,7 @@ if elapsed_time >= time_limit:
 else:
     print(Color.GREEN + f"Your final score is {score}/{len(questions)} correct answers.")
     print(f'Time spent taking the QUIZ: {format_time(int(elapsed_time))} minutes.')
-    print("To see the correct answers, type 'y'. To exit type any key.")
+    print("To see the correct answers, type 'y'. To exit press any key.")
     final_answers = input().lower()
     if final_answers == 'y':
         for q_num, q_data in questions.items():
