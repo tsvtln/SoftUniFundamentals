@@ -1,0 +1,102 @@
+{
+    "1": {
+        "question": "How do you create an empty dictionary in Python?",
+        "options": {
+            "a": "empty_dict = {}",
+            "b": "empty_dict = dict()",
+            "c": "empty_dict = []",
+            "d": "empty_dict = set()"
+        },
+        "answer": "b"
+    },
+    "2": {
+        "question": "What is the output of the following code?\n\nmy_dict = {'apple': 3, 'banana': 2, 'orange': 5}\nprint(my_dict['banana'])",
+        "options": {
+            "a": "2",
+            "b": "'banana'",
+            "c": "{'banana': 2}",
+            "d": "KeyError"
+        },
+        "answer": "a"
+    },
+    "3": {
+        "question": "Which method is used to add or update a key-value pair in a dictionary?",
+        "options": {
+            "a": "super()",
+            "b": "update()",
+            "c": "insert()",
+            "d": "append()"
+        },
+        "answer": "b"
+    },
+    "4": {
+        "question": "What does the len() function return when called on a dictionary?",
+        "options": {
+            "a": "The number of key-value pairs in the dictionary",
+            "b": "The number of keys in the dictionary",
+            "c": "The number of values in the dictionary",
+            "d": "The length of the longest key in the dictionary"
+        },
+        "answer": "b"
+    },
+    "5": {
+        "question": "Which of the following methods removes a key-value pair from a dictionary?",
+        "options": {
+            "a": "delete()",
+            "b": "remove()",
+            "c": "pop()",
+            "d": "discard()"
+        },
+        "answer": "c"
+    },
+    "6": {
+        "question": "What happens when you try to access a key that doesn't exist in a dictionary?",
+        "options": {
+            "a": "It raises a KeyError",
+            "b": "It returns None",
+            "c": "It raises an IndexError",
+            "d": "It returns an empty string"
+        },
+        "answer": "a"
+    },
+    "7": {
+        "question": "How do you check if a key exists in a dictionary?",
+        "options": {
+            "a": "key_exists()",
+            "b": "contains_key()",
+            "c": "in operator",
+            "d": "has_key()"
+        },
+        "answer": "c"
+    },
+    "8": {
+        "question": "What is the result of the following code?\n\nmy_dict = {'apple': 3, 'banana': 2, 'orange': 5}\ndel my_dict['banana']\nprint(len(my_dict))",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "1",
+            "d": "KeyError"
+        },
+        "answer": "a"
+    },
+    "9": {
+        "question": "Which method returns a list of all the keys in a dictionary?",
+        "options": {
+            "a": "keys()",
+            "b": "get_keys()",
+            "c": "all_keys()",
+            "d": "dict_keys()"
+        },
+        "answer": "a"
+    },
+    "10": {
+        "question": "What is the output of the following code?\n\nmy_dict = {'apple': 3, 'banana': 2, 'orange': 5}\nprint(list(my_dict.values()))",
+        "options": {
+            "a": "['apple', 'banana', 'orange']",
+            "b": "[3, 2, 5]",
+            "c": "{'apple': 3, 'banana': 2, 'orange': 5}",
+            "d": "TypeError"
+        },
+        "answer": "b"
+    }
+}
