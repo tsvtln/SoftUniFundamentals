@@ -10,4 +10,3 @@ for ch in string:
     else:
         symbols += ch
 print(f"{digits}\n{alpha}\n{symbols}")
-        
