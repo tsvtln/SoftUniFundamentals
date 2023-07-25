@@ -1,7 +1,6 @@
 string = input()
 final_text = ''
 explosion_power = 0
-EXPLOSION = False
 for char in string:
     if char.isnumeric():
         explosion_power += int(char)
