@@ -19,7 +19,7 @@ for ticket in tickets:
     print(check_ticket(ticket))
 
 
-"""54/100"""
+"""100/100"""
 # tickets = input().split(', ')
 # count_win = ''
 # last_char = ''
@@ -30,17 +30,38 @@ for ticket in tickets:
 # JACKPOT = False
 # JACKPOT_WON = False
 # for ticket in tickets:
-#     if len(ticket) < 20:
+#     ticket = ticket.strip()
+#     if len(ticket) != 20:
 #         print(f"invalid ticket")
 #         continue
-#     ticket = ticket.strip()
 #     count_win = ''
 #     last_char = ''
 #     FH = False
 #     WIN = False
 #     JACKPOT = False
 #     JACKPOT_WON = False
-#     for char in ticket:
+#     for char in ticket[10:]:
+#         if char in winning_chars:
+#             if last_char != char:
+#                 last_char = char
+#                 count_win = char
+#                 # win_char = char
+#             elif last_char == char:
+#                 count_win += char
+#         elif char not in winning_chars:
+#             if len(count_win) >= 6 and not FH:
+#                 FH = True
+#             elif len(count_win) >= 6 and FH:
+#                 WIN = True
+#                 break
+#         if len(count_win) == 10 or len(count_win) // 2 == 10:
+#             if not JACKPOT:
+#                 JACKPOT = True
+#             elif JACKPOT:
+#                 JACKPOT_WON = True
+#                 break
+#     last_char = ''
+#     for char in ticket[:10]:
 #         if char in winning_chars:
 #             if last_char != char:
 #                 last_char = char
@@ -68,4 +89,3 @@ for ticket in tickets:
 #         print(f'ticket "{ticket}" - 10{count_win[0]} Jackpot!')
 #     else:
 #         print(f'ticket "{ticket}" - no match')
-
