@@ -15,3 +15,7 @@ for date in find_dates:
     else:
         day, month, year = date.split('.')
     print(f"Day: {day}, Month: {month}, Year: {year}")
+
+
+# Group
+# (?P<Day>\d{2})\.(?P<Month>[A-Z][a-z][a-z])\.(?P<Year>\d{4})
